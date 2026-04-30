@@ -170,15 +170,93 @@
 本文选取房源单位面积均价作为核心因变量，单位为万元 /㎡，全部样本共计 175128 条。从统计特征来看，
 二手房房源均价均值为 5.35 万元 /㎡，中位数为 4.84 万元 /㎡，标准差达到 2.95 万元 /㎡，表明上
 海二手房房价整体波动幅度较大，区域与房源品质差异显著，反映出上海二手房市场存在刚需普通住宅、改善型住宅与高端豪宅的层级分化特征。
-从分布形态来看，二手房房价整体呈现右偏分布特征，均值大于中位数，主要受少量核心城区高端豪宅
-房源拉高整体均值影响。结合均价分组特征来看，房源主要集中在 3 万～6 万 /㎡的主流改善区间，
+均价的直方图如\ref{fig:fig1}所示。从分布形态来看，二手房房价整体呈现右偏分布特征，均值大于中位数，主要受少量核心城区高端豪宅
+房源拉高整体均值影响。结合均价分组特征来看，房源主要集中在 3 万-6 万 /㎡的主流改善区间，
 3 万以下刚需房源占比次之，6 万以上高端房源占比相对较少，符合上海房地产市场刚需为主、改善为辅、高端稀缺的市场格局。
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\textwidth]{hist_均价.png}
+  \caption{均价分布直方图}
+  \label{fig:fig1}
+\end{figure}
+
+\subsubsection{房源基本属性自变量分析}
+
+房源基本属性自变量主要涵盖居室数、厅堂数、卫生间数、房屋总面积、装修类型与楼层位置，本节针对上
+述特征变量开展单因子房价差异分析。居室数、厅堂数与二手房均价的分组箱线图分别如图 \ref {fig:jushi} 和
+图 \ref {fig:tingtang} 所示。从居室结构来看，上海二手房房源主要集中在两室、三室户型。
+其中两室户型均价水平最低；一室户型受户型稀缺性及小户型单价偏高特征影响，均价反而高于两室户型；
+三室、四室、五室及以上户型的房源均价则呈现逐级上升趋势。与之相对，厅堂布局主要以一厅、二厅为主，
+两类房源的单位均价差异较小；而三厅及以上大格局房源均价出现明显抬升，但此类房源存量稀缺，样本占比仅为 3\%。
+卫生间数量同样表现出相近的价格分异特征，房源以 0–1 卫配置为主，多卫生间户型的二手房均价显著更高，
+具体分布特征如图 \ref {fig:wsj} 所示。居室数、厅堂数、卫生间数量三者与房屋总面积存在高度相关性。
+绘制按均价分组堆叠的房屋总面积分布直方图，结果如图 \ref {fig:zmj1} 所示：房屋总面积整体呈右偏分布，
+房源面积主要集中在 50-150㎡区间，面积超过 100㎡后房源频数明显回落；同时随着建筑面积增大，
+均价 3 万元 /㎡以下的刚需房源占比逐步下降。对房屋总面积进行区间分组并绘制均价箱线图，
+如图 \ref {fig:zmj2} 所示，其价格变化规律与居室数等变量基本一致。70-100㎡区间房源均价最低，
+100-150㎡改善型房源、150㎡及以上大户型房源均价依次攀升，体现出居住空间尺度对二手房价格具有
+显著的正向拉动作用。从装修类型（图\ref {fig:zx}）的箱线图来看，从毛坯、简装、精装修、豪华装修呈现房价逐级上升的
+趋势，从样本结构看，市场流通房源以精装修为主，占据绝对市场份额。
+在楼层位置方面，低层、中层与高层房源的均价并未表现出显著分异特征，不同楼层间价格差异不明显，因此本文不再对楼层位置作进一步展开分析。
 
 
-\subsubsection{数值型自变量分析：面积、楼层、建成年代等分布特征}
+ \begin{figure}[htbp]
+  \centering
+  \begin{minipage}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{boxplot_居室数分组.png}
+    \caption{居室数分组-均价箱线图} % 图标题
+    \label{fig:jushi} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{boxplot_厅堂数分组.png}
+    \caption{厅堂数分组-均价箱线图} % 图标题
+    \label{fig:tingtang} 
+  \end{minipage}
+\end{figure}
+
+
+ \begin{figure}[htbp]
+  \centering
+  \begin{minipage}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{boxplot_卫生间数分组.png}
+    \caption{卫生间数分组-均价箱线图} % 图标题
+    \label{fig:wsj} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{boxplot_装修.png}
+    \caption{装修类型-均价箱线图} 
+    \label{fig:zx} 
+  \end{minipage}
+\end{figure}
+
+ \begin{figure}[htbp]
+  \centering
+  \begin{minipage}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{hist_总面积_均价分组.png}
+    \caption{总面积-均价分组直方图} % 图标题
+    \label{fig:zmj1} 
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{boxplot_总面积分组.png}
+    \caption{总面积分组-均价箱线图} 
+    \label{fig:zmj2} 
+  \end{minipage}
+\end{figure}
+
 
 \subsubsection{字符型自变量分析：户型、装修情况、房屋朝向等分布特征}
+
+
 
 \subsection{相关性分析} 
 
