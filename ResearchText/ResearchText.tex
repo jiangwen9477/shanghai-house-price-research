@@ -22,12 +22,10 @@
 \usepackage{multirow}
 \usepackage{makecell}
 \usepackage{tabularx}
-\usepackage{ctex}
 \usepackage{geometry}
 \usepackage{grffile} % 必加：增强对空格、中文路径的支持
 \usepackage{longtable}
 \usepackage{caption}
-
 
 \usepackage[colorlinks=true,citecolor=blue]{hyperref}
 %----------Spacing-------------
@@ -187,7 +185,7 @@
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1\textwidth]{hist_均价.png}
+  \includegraphics[width=1\textwidth]{hist_avg.png}
   \caption{均价分布直方图}
   \label{fig:fig1}
 \end{figure}
@@ -195,19 +193,19 @@
 \subsubsection{房源基本属性自变量分析}
 
 房源基本属性自变量主要涵盖居室数、厅堂数、卫生间数、房屋总面积、装修类型与楼层位置，本节针对上
-述特征变量开展单因子房价差异分析。居室数、厅堂数与二手房均价的分组箱线图分别如图 \ref {fig:jushi} 和
-图 \ref {fig:tingtang} 所示。从居室结构来看，上海二手房房源主要集中在两室、三室户型。
+述特征变量开展单因子房价差异分析。居室数、厅堂数与二手房均价的分组箱线图分别如图 \ref{fig:jushi} 和
+图 \ref{fig:tingtang} 所示。从居室结构来看，上海二手房房源主要集中在两室、三室户型。
 其中两室户型均价水平最低；一室户型受户型稀缺性及小户型单价偏高特征影响，均价反而高于两室户型；
 三室、四室、五室及以上户型的房源均价则呈现逐级上升趋势。与之相对，厅堂布局主要以一厅、二厅为主，
 两类房源的单位均价差异较小；而三厅及以上大格局房源均价出现明显抬升，但此类房源存量稀缺，样本占比仅为 3\%。
 卫生间数量同样表现出相近的价格分异特征，房源以 0–1 卫配置为主，多卫生间户型的二手房均价显著更高，
-具体分布特征如图 \ref {fig:wsj} 所示。居室数、厅堂数、卫生间数量三者与房屋总面积存在高度相关性。
-绘制按均价分组堆叠的房屋总面积分布直方图，结果如图 \ref {fig:zmj1} 所示：房屋总面积整体呈右偏分布，
+具体分布特征如图 \ref{fig:wsj} 所示。居室数、厅堂数、卫生间数量三者与房屋总面积存在高度相关性。
+绘制按均价分组堆叠的房屋总面积分布直方图，结果如图 \ref{fig:zmj1} 所示：房屋总面积整体呈右偏分布，
 房源面积主要集中在 50-150㎡区间，面积超过 100㎡后房源频数明显回落；同时随着建筑面积增大，
 均价 3 万元 /㎡以下的刚需房源占比逐步下降。对房屋总面积进行区间分组并绘制均价箱线图，
-如图 \ref {fig:zmj2} 所示，其价格变化规律与居室数等变量基本一致。70-100㎡区间房源均价最低，
+如图 \ref{fig:zmj2} 所示，其价格变化规律与居室数等变量基本一致。70-100㎡区间房源均价最低，
 100-150㎡改善型房源、150㎡及以上大户型房源均价依次攀升，体现出居住空间尺度对二手房价格具有
-显著的正向拉动作用。从装修类型（图\ref {fig:zx}）的箱线图来看，从毛坯、简装、精装修、豪华装修呈现房价逐级上升的
+显著的正向拉动作用。从装修类型（图\ref{fig:zx}）的箱线图来看，从毛坯、简装、精装修、豪华装修呈现房价逐级上升的
 趋势，从样本结构看，市场流通房源以精装修为主，占据绝对市场份额。
 在楼层位置方面，低层、中层与高层房源的均价并未表现出显著分异特征，不同楼层间价格差异不明显，因此本文不再对楼层位置作进一步展开分析。
 
@@ -216,14 +214,14 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_居室数分组.png}
+    \includegraphics[width=\linewidth]{boxplot_room.png}
     \caption{居室数分组-均价箱线图} % 图标题
     \label{fig:jushi} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_厅堂数分组.png}
+    \includegraphics[width=\linewidth]{boxplot_hall.png}
     \caption{厅堂数分组-均价箱线图} % 图标题
     \label{fig:tingtang} 
   \end{minipage}
@@ -234,14 +232,14 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_卫生间数分组.png}
+    \includegraphics[width=\linewidth]{boxplot_toilet.png}
     \caption{卫生间数分组-均价箱线图} % 图标题
     \label{fig:wsj} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_装修.png}
+    \includegraphics[width=\linewidth]{boxplot_decoration.png}
     \caption{装修类型-均价箱线图} 
     \label{fig:zx} 
   \end{minipage}
@@ -251,14 +249,14 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{hist_总面积_均价分组.png}
+    \includegraphics[width=\linewidth]{hist_area_avg.png}
     \caption{总面积-均价分组直方图} % 图标题
     \label{fig:zmj1} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_总面积分组.png}
+    \includegraphics[width=\linewidth]{boxplot_area.png}
     \caption{总面积分组-均价箱线图} 
     \label{fig:zmj2} 
   \end{minipage}
@@ -268,15 +266,15 @@
 \subsubsection{小区环境属性自变量分析}
 
 小区环境属性自变量主要涵盖房龄、居民楼总层数、小区总户数、小区绿化率及物业费用，本节通过单因子箱线图
-逐一分析各环境特征与二手房均价的关联规律。房龄与二手房均价的分布关系如图 \ref {fig:fl} 所示，样本房源房龄
+逐一分析各环境特征与二手房均价的关联规律。房龄与二手房均价的分布关系如图 \ref{fig:fl} 所示，样本房源房龄
 主要集中在 10-30 年区间。从价格走势来看，3–10 年、10–20 年、20–30 年房龄房源均价呈现逐级上升特征，
 与常规认知中 “新房价格更高” 的规律存在一定背离。究其原因，可能受区位圈层效应干扰：上海市核心城区建成时间较早、
 小区整体房龄偏大，但依托成熟配套与核心地段优势房价居高不下；而近郊及远郊片区多为新建次新小区，房龄偏小但区位
 价值有限，均价相对偏低，从而造成房龄越高均价反而越高的统计表象。
-居民楼总层数分组均价箱线图如图 \ref {fig:zlc} 所示，房源楼栋层数集中在 4–6 层，为市场供给主流形态。
+居民楼总层数分组均价箱线图如图 \ref{fig:zlc} 所示，房源楼栋层数集中在 4–6 层，为市场供给主流形态。
 整体来看，高层楼栋尤其是 18 层以上的高楼层住宅均价相对更高，但此类房源样本数量占比偏低，市场存量相对有限；
 中低层住宅价格波动相对平缓，整体溢价能力弱于高层住宅。
-小区总户数、小区绿化率对应的均价箱线图分别如图 \ref {fig:hs} 与图 \ref {fig:lhl} 所示。从小区规模来看，
+小区总户数、小区绿化率对应的均价箱线图分别如图 \ref{fig:hs} 与图 \ref{fig:lhl} 所示。从小区规模来看，
 随着小区总户数规模增大，二手房均价整体呈逐级下降趋势，大规模社区多居住密度偏高、价格水平偏低；而小规模社区往往
 布局更精致、居住舒适度更高，且多坐落于配套成熟板块，具备一定价格溢价。在绿化率层面，绿化率 40\% 以上的小区房
 源均价明显高于绿化率 35\% 以下的小区，说明小区绿化环境越好、居住品质越高，对二手房房价具有显著正向提升作用。
@@ -289,14 +287,14 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_房龄分组.png}
+    \includegraphics[width=\linewidth]{boxplot_houseage.png}
     \caption{房龄分组-均价箱线图} % 图标题
     \label{fig:fl} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_总楼层数分组.png}
+    \includegraphics[width=\linewidth]{boxplot_floors.png}
     \caption{总楼层数分组-均价箱线图} 
     \label{fig:zlc} 
   \end{minipage}
@@ -307,14 +305,14 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_小区户数分组.png}
+    \includegraphics[width=\linewidth]{boxplot_housenum.png}
     \caption{小区户数分组-均价箱线图} % 图标题
     \label{fig:hs} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_小区绿化率分组.png}
+    \includegraphics[width=\linewidth]{boxplot_greenery.png}
     \caption{小区绿化率分组-均价箱线图} 
     \label{fig:lhl} 
   \end{minipage}
@@ -324,14 +322,14 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{hist_物业费用_均价分组.png}
+    \includegraphics[width=\linewidth]{hist_fee_avg.png}
     \caption{物业费用-均价分组直方图} % 图标题
     \label{fig:wy11} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_物业费用分组.png}
+    \includegraphics[width=\linewidth]{boxplot_fee.png}
     \caption{物业费用分组-均价箱线图} 
     \label{fig:wy2} 
   \end{minipage}
@@ -345,7 +343,7 @@
 从各行政区房源数量与均价结构的分布（图\ref{fig:qu}）来看，上海二手房市场呈现出显著的区域分化特征：浦东作为房源供给的核心区域，
 兼具刚需、改善与高端房源，内部房价梯度差异较大；闵行、宝山等近郊区域以 3-6 万 /㎡的改善型房源为主，而徐汇、静安、黄浦等中心城区则以
 6 万 /㎡以上的高端房源为主体，供应总量有限但价格水平显著偏高。整体上，刚需与改善型房源主要集中在外围区域，高端房源高度集聚于核心城区，
-体现了上海房价 “外低内高” 的圈层分布格局。从是否临近地铁的均价箱线图（图 \ref {fig:dts}）可以看出，轨道交通配套对二手房价格具有显著的正向影响。
+体现了上海房价 “外低内高” 的圈层分布格局。从是否临近地铁的均价箱线图（图 \ref{fig:dts}）可以看出，轨道交通配套对二手房价格具有显著的正向影响。
 样本中近地铁房源占比更高，反映出上海地铁网络覆盖度高、公共交通发达的城市特征。近地铁房源的整体均价水平明显高于非地铁房源，
 其箱体整体位于更高的价格区间，中位数均价显著更高，说明 “地铁房” 普遍存在明显的价格溢价。非地铁房源均价则整体偏低，价格波动范围也相对更小，
 多为配套薄弱区域的房源。轨道交通便利性带来的区位优势，直接推高了沿线房源的市场价值，形成了清晰的 “地铁房” 价格梯度。
@@ -355,22 +353,22 @@
   \centering
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{bar_区_均价分组.png}
+    \includegraphics[width=\linewidth]{bar_area_avg.png}
     \caption{行政区-均价堆叠柱形图} % 图标题
     \label{fig:qu} 
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.45\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{boxplot_是否近地铁.png}
+    \includegraphics[width=\linewidth]{boxplot_near_subway.png}
     \caption{是否近地铁-均价箱线图} 
-    \label{fig:dt} 
+    \label{fig:dts} 
   \end{minipage}
 \end{figure}
 
 \subsection{相关性分析} 
 
-本节基于 Pearson 相关系数下三角矩阵，对二手房房源的核心数值型自变量线性关联特征进行分析，结果如图 \ref {fig:corr_tri} 所示。
+本节基于 Pearson 相关系数下三角矩阵，对二手房房源的核心数值型自变量线性关联特征进行分析，结果如图 \ref{fig:corr_tri} 所示。
 1. 房屋户型变量的高度正相关特征
 居室数、厅堂数、卫生间数与房屋总面积等核心户型变量间呈现显著的正相关关系，是矩阵中关联强度最高的一组变量。其中，房屋总面积与卫生间数、
 居室数的相关系数分别达 0.80、0.75，居室数与卫生间数的相关系数为 0.75，均属于高度正相关；厅堂数与居室数、房屋总面积的相关系数均为 0.56，
@@ -422,14 +420,15 @@
 通常具备更多居室与卫生间” 的特征高度契合。
 
 \subsection{用GLM构建基准模型} 
-本文基于高斯分布家族构建广义线性模型（GLM），以二手房均价为因变量，纳入房屋规模主成分（size_pc1）、户型分组、房龄、区位配套、小区属性等特征开展回归分析，
+
+本文基于高斯分布家族构建广义线性模型（GLM），以二手房均价为因变量，纳入房屋规模主成分（size\_pc1）、户型分组、房龄、区位配套、小区属性等特征开展回归分析，
 回归模型有效样本量为 175127 条，调整后的R²为 0.394，所有变量均通过显著性检验（P<0.05），回归结果显著，具体系数见下表：
 \begin{table}[htbp]
   \centering
   \caption{二手房均价线性回归（OLS）拟合结果}
   \label{tab:ols_result}
   \resizebox{\textwidth}{!}{%  自适应页面宽度
-  \begin{tabular}{lccc}
+  \begin{tabular}{lcccc}
     \toprule
     \textbf{变量类别} & \textbf{变量} & \textbf{回归系数} & \textbf{P值} & \textbf{经济解释} \\
     \midrule
