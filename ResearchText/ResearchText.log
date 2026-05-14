@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  10 MAY 2026 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.3)  14 MAY 2026 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -730,12 +730,12 @@ Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (q
 [4]
 
 [5]
-Underfull \hbox (badness 2980) in paragraph at lines 148--148
+Underfull \hbox (badness 2980) in paragraph at lines 155--155
 []|\C70/rm/bx/n/10.53937/62 ? \C70/rm/bx/n/10.53937/6e ê \C70/rm/bx/n/10.53937/53 U \C70/rm/bx/n/10.53937/4f M \C70/rm/bx/n/10.53937/97 b \C70/rm/bx/n/10.53937/79 Ô \C70/rm/bx/n/10.53937/62 ? \C70/rm/bx/n/10.53937/4e ˜ |\C70/rm/bx/n/10.53937/ff ^^H|\C70/rm/bx/n/10.53937/4e ^^G
  []
 
 
-Overfull \hbox (11.26254pt too wide) in paragraph at lines 144--188
+Overfull \hbox (11.26254pt too wide) in paragraph at lines 151--195
  [][] 
  []
 
@@ -747,92 +747,92 @@ Overfull \hbox (11.26254pt too wide) in paragraph at lines 144--188
 <hist_avg.png, id=384, 859.2903pt x 498.1812pt>
 File: hist_avg.png Graphic file (type png)
 <use hist_avg.png>
-Package pdftex.def Info: hist_avg.png  used on input line 211.
+Package pdftex.def Info: hist_avg.png  used on input line 218.
 (pdftex.def)             Requested size: 430.00462pt x 249.29523pt.
 
 
-[8 <./hist_avg.png>]
-<boxplot_room.png, id=399, 859.7721pt x 425.6703pt>
+[8]
+<boxplot_room.png, id=400, 859.7721pt x 425.6703pt>
 File: boxplot_room.png Graphic file (type png)
 <use boxplot_room.png>
-Package pdftex.def Info: boxplot_room.png  used on input line 240.
+Package pdftex.def Info: boxplot_room.png  used on input line 247.
 (pdftex.def)             Requested size: 193.50076pt x 95.79765pt.
-<boxplot_hall.png, id=400, 859.7721pt x 426.1521pt>
+<boxplot_hall.png, id=401, 859.7721pt x 426.1521pt>
 File: boxplot_hall.png Graphic file (type png)
 <use boxplot_hall.png>
-Package pdftex.def Info: boxplot_hall.png  used on input line 247.
+Package pdftex.def Info: boxplot_hall.png  used on input line 254.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
-<boxplot_toilet.png, id=401, 859.7721pt x 426.1521pt>
+<boxplot_toilet.png, id=402, 859.7721pt x 426.1521pt>
 File: boxplot_toilet.png Graphic file (type png)
 <use boxplot_toilet.png>
-Package pdftex.def Info: boxplot_toilet.png  used on input line 258.
+Package pdftex.def Info: boxplot_toilet.png  used on input line 265.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
-<boxplot_decoration.png, id=402, 859.7721pt x 426.1521pt>
+<boxplot_decoration.png, id=403, 859.7721pt x 426.1521pt>
 File: boxplot_decoration.png Graphic file (type png)
 <use boxplot_decoration.png>
-Package pdftex.def Info: boxplot_decoration.png  used on input line 265.
+Package pdftex.def Info: boxplot_decoration.png  used on input line 272.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
-<hist_area_avg.png, id=403, 859.2903pt x 498.1812pt>
+<hist_area_avg.png, id=404, 859.2903pt x 498.1812pt>
 File: hist_area_avg.png Graphic file (type png)
 <use hist_area_avg.png>
-Package pdftex.def Info: hist_area_avg.png  used on input line 275.
+Package pdftex.def Info: hist_area_avg.png  used on input line 282.
 (pdftex.def)             Requested size: 193.50076pt x 112.17714pt.
-<boxplot_area.png, id=404, 859.7721pt x 426.1521pt>
+<boxplot_area.png, id=405, 859.7721pt x 426.1521pt>
 File: boxplot_area.png Graphic file (type png)
 <use boxplot_area.png>
-Package pdftex.def Info: boxplot_area.png  used on input line 282.
+Package pdftex.def Info: boxplot_area.png  used on input line 289.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
 
 
-[9 <./boxplot_room.png> <./boxplot_hall.png> <./boxplot_toilet.png> <./boxplot_decoration.png>]
-<boxplot_houseage.png, id=420, 859.7721pt x 426.1521pt>
+[9 <./hist_avg.png> <./boxplot_room.png> <./boxplot_hall.png>]
+
+[10 <./boxplot_toilet.png> <./boxplot_decoration.png> <./hist_area_avg.png> <./boxplot_area.png>]
+<boxplot_houseage.png, id=430, 859.7721pt x 426.1521pt>
 File: boxplot_houseage.png Graphic file (type png)
 <use boxplot_houseage.png>
-Package pdftex.def Info: boxplot_houseage.png  used on input line 313.
+Package pdftex.def Info: boxplot_houseage.png  used on input line 320.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
-<boxplot_floors.png, id=421, 859.7721pt x 426.1521pt>
+<boxplot_floors.png, id=431, 859.7721pt x 426.1521pt>
 File: boxplot_floors.png Graphic file (type png)
 <use boxplot_floors.png>
-Package pdftex.def Info: boxplot_floors.png  used on input line 320.
+Package pdftex.def Info: boxplot_floors.png  used on input line 327.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
-<boxplot_housenum.png, id=422, 859.7721pt x 425.9112pt>
+<boxplot_housenum.png, id=432, 859.7721pt x 425.9112pt>
 File: boxplot_housenum.png Graphic file (type png)
 <use boxplot_housenum.png>
-Package pdftex.def Info: boxplot_housenum.png  used on input line 331.
+Package pdftex.def Info: boxplot_housenum.png  used on input line 338.
 (pdftex.def)             Requested size: 193.50076pt x 95.85187pt.
-<boxplot_greenery.png, id=423, 859.7721pt x 425.9112pt>
+<boxplot_greenery.png, id=433, 859.7721pt x 425.9112pt>
 File: boxplot_greenery.png Graphic file (type png)
 <use boxplot_greenery.png>
-Package pdftex.def Info: boxplot_greenery.png  used on input line 338.
+Package pdftex.def Info: boxplot_greenery.png  used on input line 345.
 (pdftex.def)             Requested size: 193.50076pt x 95.85187pt.
-<hist_fee_avg.png, id=424, 859.2903pt x 498.1812pt>
+<hist_fee_avg.png, id=434, 859.2903pt x 498.1812pt>
 File: hist_fee_avg.png Graphic file (type png)
 <use hist_fee_avg.png>
-Package pdftex.def Info: hist_fee_avg.png  used on input line 348.
+Package pdftex.def Info: hist_fee_avg.png  used on input line 355.
 (pdftex.def)             Requested size: 193.50076pt x 112.17714pt.
-<boxplot_fee.png, id=425, 859.7721pt x 426.1521pt>
+<boxplot_fee.png, id=435, 859.7721pt x 426.1521pt>
 File: boxplot_fee.png Graphic file (type png)
 <use boxplot_fee.png>
-Package pdftex.def Info: boxplot_fee.png  used on input line 355.
+Package pdftex.def Info: boxplot_fee.png  used on input line 362.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
 
-
-[10 <./hist_area_avg.png> <./boxplot_area.png>]
 
 [11 <./boxplot_houseage.png> <./boxplot_floors.png> <./boxplot_housenum.png> <./boxplot_greenery.png> <./hist_fee_avg.png> <./boxplot_fee.png>]
 <bar_area_avg.png, id=450, 859.5312pt x 570.4512pt>
 File: bar_area_avg.png Graphic file (type png)
 <use bar_area_avg.png>
-Package pdftex.def Info: bar_area_avg.png  used on input line 379.
+Package pdftex.def Info: bar_area_avg.png  used on input line 386.
 (pdftex.def)             Requested size: 193.50076pt x 128.4156pt.
 <boxplot_near_subway.png, id=451, 859.7721pt x 426.1521pt>
 File: boxplot_near_subway.png Graphic file (type png)
 <use boxplot_near_subway.png>
-Package pdftex.def Info: boxplot_near_subway.png  used on input line 386.
+Package pdftex.def Info: boxplot_near_subway.png  used on input line 393.
 (pdftex.def)             Requested size: 193.50076pt x 95.90608pt.
 
 
-LaTeX Warning: Reference `fig:corr_tri' on page 12 undefined on input line 394.
+LaTeX Warning: Reference `fig:corr_tri' on page 12 undefined on input line 401.
 
 
 
@@ -840,7 +840,7 @@ LaTeX Warning: Reference `fig:corr_tri' on page 12 undefined on input line 394.
 <corr_half.png, id=462, 1156.32pt x 1011.78pt>
 File: corr_half.png Graphic file (type png)
 <use corr_half.png>
-Package pdftex.def Info: corr_half.png  used on input line 418.
+Package pdftex.def Info: corr_half.png  used on input line 425.
 (pdftex.def)             Requested size: 430.00462pt x 376.25168pt.
 
 
@@ -848,7 +848,7 @@ Package pdftex.def Info: corr_half.png  used on input line 418.
 
 [14 <./corr_half.png>]
 
-LaTeX Warning: Float too large for page by 64.93785pt on input line 502.
+LaTeX Warning: Float too large for page by 64.93785pt on input line 509.
 
 
 
@@ -872,10 +872,10 @@ Package rerunfilecheck Info: File `ResearchText.out' has not changed.
 (rerunfilecheck)             Checksum: AF3621BECD32CBEFA104CB3ABB614CC4;3586.
  ) 
 Here is how much of TeX's memory you used:
- 19095 strings out of 473190
- 333654 string characters out of 5712685
- 814266 words of memory out of 5000000
- 41584 multiletter control sequences out of 15000+600000
+ 19114 strings out of 473190
+ 334035 string characters out of 5712685
+ 814268 words of memory out of 5000000
+ 41603 multiletter control sequences out of 15000+600000
  638891 words of font info for 335 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,13n,83p,768b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -883,7 +883,7 @@ Here is how much of TeX's memory you used:
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong30: wrong mapping: character 251 --> 0x30FB --> .notdef
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/OtherSoftware/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on ResearchText.pdf (17 pages, 3460679 bytes).
+Output written on ResearchText.pdf (17 pages, 3466278 bytes).
 PDF statistics:
  1033 PDF objects out of 1200 (max. 8388607)
  723 compressed objects within 8 object streams

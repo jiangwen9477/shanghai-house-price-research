@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex ResearchText"] 1778410782.0975 "ResearchText.aux" "ResearchText.bbl" "ResearchText" 1778410793.28471 0
+["bibtex ResearchText"] 1778744708.86338 "ResearchText.aux" "ResearchText.bbl" "ResearchText" 1778744722.40569 0
   "./references.bib" 1778409632 1472 cd20f266f5d91e1c379c9f4c9167bfa4 ""
-  "ResearchText.aux" 1778410791 8689 a4ae9c64d29ef1b130384c5ad98cffcf "pdflatex"
+  "ResearchText.aux" 1778744720 8693 a8461bba46c31b23cea6d23d1750cb2d "pdflatex"
   "d:/OtherSoftware/texlive/2025/texmf-dist/bibtex/bst/chicago/chicago.bst" 1762166641 37416 2ae04276c51f11eda70770f4081293b7 ""
   (generated)
   "ResearchText.bbl"
   "ResearchText.blg"
   (rewritten before read)
-["pdflatex"] 1778410782.62084 "e:/MyProjects/group-project/shanghai-house-price-research/ResearchText/ResearchText.tex" "ResearchText.pdf" "ResearchText" 1778410793.28578 0
-  "ResearchText.aux" 1778410791 8689 a4ae9c64d29ef1b130384c5ad98cffcf "pdflatex"
-  "ResearchText.bbl" 1778410782 1765 e57403976a132a683f7f6a15aedf9d5a "bibtex ResearchText"
-  "ResearchText.out" 1778410791 3586 af3621becd32cbefa104cb3abb614cc4 "pdflatex"
-  "ResearchText.tex" 1778410752 33802 3ddd8f29e1bf094219c4a7bad01f3eae ""
-  "ResearchText.toc" 1778410791 2491 dbd89754ae10ed7920908b3f7e7cc4ec "pdflatex"
+["pdflatex"] 1778744709.60923 "e:/MyProjects/group-project/shanghai-house-price-research/ResearchText/ResearchText.tex" "ResearchText.pdf" "ResearchText" 1778744722.40689 0
+  "ResearchText.aux" 1778744720 8693 a8461bba46c31b23cea6d23d1750cb2d "pdflatex"
+  "ResearchText.bbl" 1778744709 1765 e57403976a132a683f7f6a15aedf9d5a "bibtex ResearchText"
+  "ResearchText.out" 1778744720 3586 af3621becd32cbefa104cb3abb614cc4 "pdflatex"
+  "ResearchText.tex" 1778744694 34538 f3cea7b7e8d265ce60f14a6eb9a7a600 ""
+  "ResearchText.toc" 1778744720 2491 66cebf6a3ece2c2248afd6f57a5d3b2a "pdflatex"
   "bar_area_avg.png" 1777632990 166240 62711a543c90fa30855bfbe16901090e ""
   "boxplot_area.png" 1777632990 171405 296e65a92ed07994bc04d676c303b439 ""
   "boxplot_decoration.png" 1777632990 192552 b3b32d12c3809691e139885f1561b06a ""
@@ -336,7 +336,7 @@
   "d:/OtherSoftware/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1762171458 5512741 8724f626debd9dee1851198aec9bdfbe ""
   "d:/OtherSoftware/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1762171828 3346267 66eaded42ac06cdc515ec7686de5ae04 ""
   "d:/OtherSoftware/texlive/2025/texmf.cnf" 1762171394 713 e69b156964470283e0530f5060668171 ""
-  "e:/MyProjects/group-project/shanghai-house-price-research/ResearchText/ResearchText.tex" 1778410752 33802 3ddd8f29e1bf094219c4a7bad01f3eae ""
+  "e:/MyProjects/group-project/shanghai-house-price-research/ResearchText/ResearchText.tex" 1778744694 34538 f3cea7b7e8d265ce60f14a6eb9a7a600 ""
   "hist_area_avg.png" 1777632990 147720 3d64cc1685ffcef36c4f8b876b98a2ed ""
   "hist_avg.png" 1777632990 165305 4de833b9b9552f521a5b0df943691046 ""
   "hist_fee_avg.png" 1777632990 127571 85b02debb2ee92a7d4e85a3e9340166a ""
